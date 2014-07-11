@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'dotenv-rails', :groups => [:development, :test]
+
+gem 'pusher'
+
 gem 'monban-generators'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
