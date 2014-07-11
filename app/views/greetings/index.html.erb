@@ -7,7 +7,7 @@
   });
 </script>
 
-<%=form_for :greeting do |form| %>
+<%=form_for :greeting, html:{id: "greeting_form"} do |form| %>
   <div>
     <%= form.label :body, "Write your greeting" %>
     <%= form.text_field :body %>
