@@ -12,6 +12,7 @@
     <div>logged in as <%= current_user.username %>...<%= link_to "Sign out", :session, method: :delete %></div>
   <% end %>
   <%= render 'flashes' %>
+  <h1>Greetr</h1>
 
 <%= yield %>
 </body>
